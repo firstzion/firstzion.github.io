@@ -1,9 +1,71 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #eeeeee;
-  text-align: center;
-{
+}
 
 h1 {
   color: #212121;
 }
+
+h2 {
+	color:	#212121;
+	clear: left;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #757575;
+}
+
+#portrait {
+	border-radius: 100%;
+	height: 350px;
+	width: 350px;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul#assignments {
+	list-style-type: none;
+}
+
+/* TABLE STYLES */
+
+table, tr, td {
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	background: none;
+}
+
+section {
+	width: 100%;
+	clear: left;
+}
+
+table {
+	float: left;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+
+td {
+	height: 20px;
+	text-align: center;
+}
+
+table.roll {
+	padding-right: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #E0E0E0;
+}
+
+th {
+	text-align: center;
+	font-weight: bold;
+	background-color: #eeeeee;
+}
+
